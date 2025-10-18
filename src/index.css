@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+
+.font-heading {
+  font-family: 'Italiana', serif;
+}
+
+.font-accent {
+  font-family: 'Zen Dots', cursive;
+}
+
+.font-modern {
+  font-family: 'Orbitron', sans-serif;
+}
+
+a, button {
+  font-family: 'Orbitron', sans-serif;
+}
