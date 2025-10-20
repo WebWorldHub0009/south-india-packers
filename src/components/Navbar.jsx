@@ -15,6 +15,7 @@ import {
 } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { Link, useLocation } from "react-router-dom";
+import logo from "../assets/sipm.png"
 
 // South India Packers Color Palette
 const colors = {
@@ -107,15 +108,15 @@ const ModernNavbar = () => {
           zIndex: 50,
           boxShadow: "0 4px 10px rgba(0,0,0,0.08)",
         }}
-        className="w-full px-4 py-3 md:px-12 transition-shadow duration-300"
+        className="w-full px-4 py-2 md:px-12 transition-shadow duration-300"
       >
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
             <img
-              src={""} // Add your South India Packers logo
+              src={logo} // Add your South India Packers logo
               alt="South India Packers Logo"
-              className="w-full h-12 md:h-14 object-contain"
+              className="w-full h-14 md:h-14 object-contain"
             />
           </Link>
 
