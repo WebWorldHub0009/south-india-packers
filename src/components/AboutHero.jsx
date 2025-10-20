@@ -38,13 +38,13 @@ export default function AboutHero() {
         {/* CTA Buttons */}
         <div className="flex flex-wrap justify-center gap-4">
           <a
-            href="#services"
+            href="/services"
             className="px-8 py-3 rounded-full bg-blue-700 text-white font-semibold hover:bg-red-700 shadow-lg transition-all duration-300"
           >
             Explore Services
           </a>
           <a
-            href="#contact"
+            href="/contact"
             className="px-8 py-3 rounded-full bg-white text-blue-700 font-semibold hover:bg-red-700 hover:text-white shadow-lg transition-all duration-300"
           >
             Get a Quote

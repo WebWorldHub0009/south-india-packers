@@ -204,7 +204,7 @@ const ModernNavbar = () => {
               <div className="flex justify-between items-center">
                 <Link to="/" className="flex items-center gap-2">
                   <img
-                    src={""} // Add logo
+                    src={logo} // Add logo
                     alt="South India Packers Logo"
                     className="w-full h-12 md:h-14 object-contain"
                   />
